@@ -1,0 +1,45 @@
+.description{
+    color: #606266;
+    font-size: 20px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+}
+.questionnaire-name{
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 4px solid #606266;
+}
+.question{
+    margin: 30px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    border: 2px solid #ebeef5;
+    border-radius: 6px;
+}
+.question-name{
+    margin: 10px 0px 10px 15px;
+    font-size: 18px;
+}
+.question-title{
+    border-bottom: 2px solid #E5E7E9;
+}
+.question-option{
+    margin: 10px 20px 10px 15px;
+}
+.option{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.question-content{
+    margin-left: 15%;
+    width: 70%;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

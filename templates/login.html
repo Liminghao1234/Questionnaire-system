@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="/static/css/login.css" rel="stylesheet">
+    <link href="/static/css/index.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="text-center form-div">
+        <form class="form-signin" method="post">
+            <a href="/index">
+                <img class="mb-4" src="/static/images/logo.png" width="72" height="72">
+            </a>
+            <h1 class="h3 mb-3 font-weight-normal">Please log in</h1>
+            <div class="form-label-group">
+                <label for="inputUsername" class="sr-only">Username</label>
+                <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Username" required autofocus>
+            </div>
+            <div class="form-label-group">
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+            </div>
+
+            <div class="checkbox mb-3">
+                <span>Don't have account?</span>
+                <a href="/signup">click me </a>
+            </div>
+
+            {%if erro%}
+            <div id="myAlert" class="alert alert-danger">
+                {{erro}}
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+            </div>
+            {%endif%}
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2021-2022</p>
+        </form>
+    </div>
+</body>
+</html>

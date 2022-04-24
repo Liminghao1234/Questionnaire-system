@@ -1,0 +1,50 @@
+.nav-link{
+    color: black;
+}
+.title{
+    width: 5%;
+}
+.nav-bar{
+    position:relative;
+    left: 2%;
+    width: 80%;
+}
+.nav-button{
+    margin: 0px 10px;
+    color: black;
+}
+
+.description{
+    color: #606266;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.questionnaire-name{
+    margin-left: 30px;
+}
+.question{
+    margin: 30px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    border: 2px solid #ebeef5;
+    border-radius: 6px;
+}
+.question-name{
+    margin: 10px 0px 10px 15px;
+    font-size: 18px;
+}
+.question-title{
+    border-bottom: 2px solid #E5E7E9;
+}
+.question-option{
+    margin: 10px 0px 10px 15px;
+}
+.option{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.generate-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

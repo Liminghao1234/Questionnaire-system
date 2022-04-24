@@ -1,0 +1,19 @@
+.logo-img{
+    width: 30px;
+    vertical-align: middle;
+    /*margin-left: 50px;*/
+}
+.logo-span{
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 20px;
+    position: absolute;
+    color: #303133;
+    cursor: pointer;
+    left: 45px;
+}
+.login-btn{
+    position: absolute;
+    right: 120px;
+}
